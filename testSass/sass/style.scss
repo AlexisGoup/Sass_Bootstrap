@@ -1,0 +1,43 @@
+/* Test Variable */
+$rouge: #FF0000;
+$grisClair: #ECECEC;
+$grisFonce: #AAA;
+
+body {
+    background-color: $grisClair;
+    p {
+        border: 1px solid red;
+    }
+}
+
+/* Test d'héritage */
+%button {
+    border: 1px solid $grisFonce;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 10px;
+    &:hover {
+        cursor: pointer;
+        background-color: $grisClair;
+    }
+}
+
+button {
+    @extend %button;
+}
+
+/* Test mixin */ 
+@mixin bouton($bgcolor) {
+    border-radius: 6px;
+    padding: 15px;
+    margin: 10px;
+    &:hover {
+        cursor: pointer;
+        background-color: $bgcolor;
+        color: white;
+    }
+}
+
+button {
+    @include bouton($grisFonce)
+}
