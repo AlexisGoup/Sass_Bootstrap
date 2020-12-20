@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="https://www.domainedo.fr/sites/all/themes/custom/ddobs/less/favicon.ico"
+        type="image/vnd.microsoft.icon" />
     <title>Domaine d'O | Spectacles, festivals et sorties à Montpellier - Théâtre, Musique, Cirque, Danse, Cinéma
     </title>
 
@@ -15,17 +18,26 @@
 
 <body>
     <header class="container">
+        <!-- Réseaux sociaux et logo -->
         <section class="row">
-            <div class="col-md-3">
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+            <div class="col-md-3 header-icons">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true">
+                        <span class="sr-only">Facebook</span>
+                    </i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true">
+                        <span class="sr-only">Twitter</span>
+                    </i></a>
+                <a href="#"><i class="fa fa-youtube" aria-hidden="true">
+                        <span class="sr-only">Youtube</span>
+                    </i></a>
+                <a href="#"><i class="fa fa-tripadvisor" aria-hidden="true">
+                        <span class="sr-only">Tripadvisor</span>
+                    </i></a>
             </div>
             <div class="col-5">
                 <h1 style="text-align: center;">
                     <img src="https://www.domainedo.fr/sites/all/themes/custom/ddobs/less/logo-domaine-d-o.png"
-                        alt="Domaine d'O - Retour accueil">
+                        alt="Logo Domaine d'O - Retour accueil">
                 </h1>
             </div>
             <div class="col-4">
@@ -44,8 +56,9 @@
             </div>
         </section>
 
+        <!-- MENU DE NAVIGATION -->
         <section class="row d-flex justify-content-between">
-            <div>
+            <div class="nav-icons">
                 <a href="#">
                     <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
                     <span>MENU</span>
@@ -67,14 +80,76 @@
                     </li>
                 </ul>
             </nav>
-            <div>
+            <div class="nav-icons">
                 <a href="#">
                     <i class="fa fa-search fa-2x" aria-hidden="true"></i>
                 </a>
             </div>
         </section>
     </header>
-    <main></main>
+
+    <main>
+        <!-- BANNIERE Infos Flash -->
+        <header class="container-fluid">
+            <section class="container">
+                <div class="row">
+                    <h2 class="info-title">Info Flash</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <span>
+                            <a href="#">
+                                <h2 class="info-new">COVID 19 - Information sur les spectacles (Mise à jour 04/12)</h2>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="col-md-5">
+                        <p>
+                            Suite aux dernières mesures gouvernementales, pour lutter contre l'épidémie de COVID-19, les
+                            bureaux du domaine d'O restent fermés
+                        </p>
+                    </div>
+                    <div class="col-md-2 offset-md-1">
+                        <span>
+                            <a href="#" class="info-more-infos">Plus d'infos</a>
+                        </span>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <!-- Tentative ratée de cartes "Ouverture de la saison" + "Zoom sur" -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 main-banner">
+                    <div class="main-banner-opening-season-back">
+                        <img src=https://www.domainedo.fr/sites/default/files/styles/en-ce-momentbreakpoints_theme_ddobs_wide_1x/public/thumbnails/image/visuel_accueil_site-2020-final2.jpg?itok=5F9H0TK3 768w" alt="" class="img-responsive img-fluid">
+                    </div>
+                    <div class="main-banner-opening-season-front">
+                        <span>
+                            Ouverture de la Saison
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Séparation Grise ACCES PAR FESTIVAL -->
+        <div class="container-fluid acces-festival">
+            <div class="container">
+                <div class="row">
+                    <h2 class="info-title">Accès par festival</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <span>
+                            <a href="#" class="info-more-infos info-saison">Saison 20/21</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer></footer>
 </body>
 

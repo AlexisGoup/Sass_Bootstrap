@@ -1,0 +1,137 @@
+body {
+    .info-more-infos {
+        font-size: 0.8em;
+        text-transform: uppercase;
+        padding: 15px 17px 10px 17px;
+        background-color: white;
+        font-weight: 700;
+        color: $red;
+    }
+
+    header {
+        margin-top: 15px;
+
+        section {       
+            a {
+                color: black;
+            }
+            a:hover {
+                color: $red;
+            }
+
+            .btn-warning {
+                background-color: white;
+                border-radius: 0px;
+                margin-left: 20px;
+                font-size: 0.75em;
+                font-weight: 900;
+                color: $red;
+                border: 1px solid $red;
+                text-transform: uppercase;
+            }
+            .btn-warning:hover {
+                background-color: $red;
+                color: white;
+            }
+
+            ul {
+                li{   
+                    display: inline;                
+                }
+
+                a {
+                    font-size: 1em;
+                    font-weight: 700;
+                    padding-left: 36px;
+                    padding-right: 36px;
+                    color: #000000;
+                    margin-top: 25px;
+                    padding-bottom: 5px;
+                    text-transform: uppercase;
+                    line-height: 1.5em;
+                    
+                    display: inline-block;
+                }
+            }
+
+            .nav-icons {
+                padding-top: 15px;
+            }
+
+            a:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    
+    main {
+
+        header {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: $red; /* ESSAYER map-get($theme-color, "primary")*/
+
+            h2 {
+                font-size: 1.1em;
+                color: white;
+                font-weight: 700;
+            }
+
+            .info-title {
+                margin: 20px 0;
+            }
+
+            .info-new {
+                text-transform: uppercase;
+            }
+
+            .info-more-infos:hover {
+                background-color: black;
+                color: white;
+            }
+
+            p {
+                color: white;
+                font-weight: bold;
+                line-height: 1.2em;
+            }
+
+
+        }
+        
+        .main-banner {
+            margin-top: 10px;
+            position: relative;
+        }
+        
+        .main-banner-opening-season {
+            max-width: 100%;
+            background-size: cover;
+            height: auto;
+            z-index: -1;
+            position:absolute;
+        }
+
+        .acces-festival{
+            margin-top: 20px;
+            background-color: lightgrey;
+
+            .info-title {
+                margin: 20px;
+            }
+
+            h2 {
+                font-size: 1.1em;
+            }
+
+            .info-saison {
+                background-color: black;
+                color: white;
+            }
+        }
+      
+        
+        
+    }
+}

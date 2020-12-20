@@ -1,0 +1,8 @@
+/* Media queries*/
+/* Quand l'écran sera plus grand que 992px, on affiche pas => pour les icones du header*/
+
+.header-icons {
+    @media screen and (max-width: 992px) {
+        display: none;
+    }
+}
