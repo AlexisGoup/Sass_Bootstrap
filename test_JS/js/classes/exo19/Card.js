@@ -111,6 +111,9 @@ export default class Card extends CoopDom {
         );
         // on cache le formulaire
         form_edit.hidden = true;
+        
+        // on cache la question
+        answer.hidden = true;
 
         // création des boutons
         const button_remove = this.createAddDomElt(
